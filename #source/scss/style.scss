@@ -1,0 +1,35 @@
+body {
+        min-width: 0 !important;
+}
+
+@import "microelectronics_style.scss";
+
+//* Начало новости *
+//=================================
+//**********************************
+
+@import "reset_block_micro_news.scss";
+@import "header_news";
+
+.micro_news{
+    box-sizing: border-box;
+    border: 10px solid #C2C2C2;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @import "media.scss";
+}
+
+
+@import "content_news.scss";
+@import "headline_previously_news.scss";
+@import "old_news.scss";
+@import "button.scss";
+@import "link.scss";
+@import "helpers.scss";
+@import "_list.scss";
+@import "footer_news.scss";
+
+//* Конец новости *
+//=================================
+//**********************************

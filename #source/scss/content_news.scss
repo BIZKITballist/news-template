@@ -1,0 +1,53 @@
+.content_news {
+    padding: 20px; }
+.firmwareRelease_pic img {
+        max-width: 100%;
+        height: auto; }
+.content_news_post {
+    text-align: justify; }
+.content_news_post h2 {
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 25px; }
+.content_news_post h3 {
+      text-align: center;
+      font-family: "Noto Serif", serif;
+      font-size: 20px;
+      color: #dd9a00; }
+.content_news_post p {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 16px;
+      line-height: 25px; }
+.content_news_post p a {
+        text-decoration: none ;
+        color: chocolate; }
+.content_news_post p a:hover {
+          color: #c4010c; }
+  
+  .part2Color {
+    background-color: #fafafa;
+    padding: 10px;
+}
+  
+  .firmwareRelease2pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+.firmwareRelease2pic .firmwareRelease_pic2 {
+      max-width: 100%; }
+.firmwareRelease2pic .firmwareRelease_pic2 img {
+        max-width: 100%;
+        height: auto; }
+
+
+

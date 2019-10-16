@@ -1,0 +1,64 @@
+.header_news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header_news_logo{
+    width: 100%;
+    max-width: 180px;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.header_news_contacts {
+    width: 100%;
+    max-width: 300px;
+}
+
+.header_news_text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+
+
+
+    .header_news_name {
+        font-size: 22px;
+        font-weight: bold;
+        font-family: "Book Antiqua";
+        color: rgba(254, 205, 19, 0.85);
+        line-height: 1.4;
+        text-shadow: black 1.3px 1.3px 0.68px, white 0 0 0.98px;
+    }
+
+    .header_news_phone {
+        font-size: 20px;
+        font-family: "Book Antiqua";
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        line-height: 1.4;
+        text-align: right;
+    }
+
+    .header_news_mail {
+        font-size: 20px;
+        font-family: "Times New Roman";
+
+        color: rgb(0, 0, 0);
+        line-height: 1.4;
+        text-align: right;
+    }
+}
+
+.header_doubleline {
+    border-top: 10px solid #FFCD00;
+    border-bottom: 10px solid #DD9A00;
+}

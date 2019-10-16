@@ -1,0 +1,102 @@
+@import "helpers.scss";
+
+
+.footer_news {
+	max-width: 1000px;
+	margin: 0 auto ;
+}
+
+.shareCompany {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0;
+
+
+	.shareFriend {
+		width: 260px;
+		text-align: center;
+		font-family: "Noto Serif", serif;
+		font-size: 16px;
+		@import "arrow.scss";
+	}
+		
+
+
+
+	.companyContact {
+		width: 260px;
+
+
+
+	.btn {
+		width: 200px;
+		padding: 10px 20px;
+		display: inline-block;
+		background: #E0E2E6;
+		color: black;
+		border: 1px solid $lightred;
+		text-decoration: none;
+		transition: 0.35s ease-in-out;
+		font-weight: 700;
+}
+		.btn:hover {
+		background: #CFD2D8;
+		border: 1px solid $darkred;
+	}
+
+
+	.overlay {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.75);
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.35s ease-in-out;
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+.overlay.open {
+	opacity: 1;
+	pointer-events: inherit;
+}
+  .overlay .modal {
+	background: white;
+	text-align: center;
+	padding: 40px 80px;
+	box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.35);
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.35s ease-in-out;
+	max-height: 100vh;
+	overflow-y: auto;
+  }
+  .overlay .modal.open {
+	opacity: 1;
+	pointer-events: inherit;
+  }
+  .overlay .modal.open .content {
+	transform: translate(0, 0px);
+	opacity: 1;
+  }
+  .overlay .modal .content {
+	transform: translate(0, -10px);
+	opacity: 0;
+	transition: 0.35s ease-in-out;
+  }
+  .overlay .modal .title {
+	margin-top: 0;
+  }
+}
+}

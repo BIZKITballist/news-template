@@ -1,0 +1,92 @@
+@media (max-width: 480px) {
+    .header_news{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .header_news_contacts {
+        max-width: none;
+    }
+    .header_news_logo {
+        max-width: 100%;
+        padding-bottom: 5px;
+    }
+    .header_news_name {
+        font-size: 18px;
+    }
+    .header_news_phone{
+        font-size: 16px;
+    }
+    .header_news_mail {
+        font-size: 16px;
+    }
+    .content_news_post {
+        text-align: justify;
+        padding-bottom: 0;
+        h2 {
+            font-family: "Noto Serif", Verdana, Helvetica, Arial, sans-serif;
+            font-size: 20px;
+        }
+        p {
+            font-family: "Noto Sans", Times, serif;
+        }
+    }
+
+
+  .firmwareRelease {
+    .firmwareRelease_text {
+      .list6 {
+        img {
+            width: 290px;
+        }
+        li {
+            text-align: left;
+        }
+      }
+    }
+  }
+
+
+  .part2Color {
+    h2 {
+        font-family: "Noto Serif", Verdana, Helvetica, Arial, sans-serif;
+        font-size: 20px;
+    }
+    .firmwareRelease2pic {
+      .firmwareRelease_pic2 {
+        img {
+            width: 100%;
+        }
+        
+      }
+    }
+  }
+  p {
+    iframe {
+        width: 270px;
+    }
+  }
+
+
+    .content_news {
+        padding: 5px;
+    }
+
+    .previously_news_headline{
+        font-size: 18px;
+    }
+    .previously_news_headline:before,
+    .previously_news_headline:after {
+        //* Свойства линий, выравнивание по центру по вертикали */
+        margin-left: 0;
+        margin-right: 0;
+        left: 0;
+        right: 0;
+    }
+    .old_news_flex {
+        padding: 10px;
+    }
+    .old_news_flex_item {
+        width: 100%;
+    }
+}

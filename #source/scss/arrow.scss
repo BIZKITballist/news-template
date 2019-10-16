@@ -1,0 +1,44 @@
+.buttonText {
+	font: 16px/1.5 Helvetica, Arial, sans-serif;
+	color: #000000;
+  }
+   
+  a {
+	color: #fff;
+	text-decoration: none;
+  }
+
+  #button1 {
+	background: #E0E2E6;
+	border: 1px solid #910109;
+	height: 28px;
+	width: 100px;
+	margin: 0 0 0 30px;
+	padding: 0 0 0 5px;
+	overflow: hidden;
+	display: block;
+
+
+
+  border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+
+
+/*Градиент*/
+background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+
+/*Переход*/
+-webkit-transition: All 0.5s ease;
+-moz-transition: All 0.5s ease;
+-o-transition: All 0.5s ease;
+-ms-transition: All 0.5s ease;
+transition: All 0.5s ease;
+}
+#button1:hover {
+	width: 200px;
+  }

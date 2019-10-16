@@ -1,0 +1,6 @@
+{"workbench.colorCustomizations": {
+	"editor.selectionHighlightBorder": "#FFFA",
+	"editor.selectionBackground": "#000000", // red color hexadecimal code
+    "editor.selectionHighlightBackground": "#ffffff00" // white hex code
+},
+}
